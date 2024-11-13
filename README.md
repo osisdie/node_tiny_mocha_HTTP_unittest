@@ -2,7 +2,7 @@
 ---
 Node application to parse config file as requests. Only 1 for loop to fulfill a test scenario. Hope help myself and any developer use it as a template for any advanced use.
 
-*series of *code_for_fun* *
+*series of code_for_fun*
 
 ### Requirements
 ---

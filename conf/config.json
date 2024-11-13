@@ -8,16 +8,16 @@
   "hosts": {
     "example": [
       {
-        "url": "http://localhost:3000", 
-        "method": "GET", 
-        "body": null, 
+        "url": "http://localhost:3000",
+        "method": "GET",
+        "body": null,
         "headers": {}
-      }, {
-        "url": "http://localhost:3000", 
-        "method": "POST", 
+      },
+      {
+        "url": "http://localhost:3000",
+        "method": "POST",
         "body": {
-          "data": {
-          }
+          "data": {}
         },
         "headers": {
           "Authorization": "Bearer {token}"
@@ -25,11 +25,26 @@
       }
     ],
     "google": [
-      {"url": "https://www.google.com/", "method": "GET", "body": null, "header": []}
+      {
+        "url": "https://www.google.com/",
+        "method": "GET",
+        "body": null,
+        "header": []
+      }
     ],
     "resttesttest": [
-      {"url": "https://httpbin.org/get", "method": "GET", "body": null, "headers": {}},
-      {"url": "https://httpbin.org/post", "method": "POST", "body": null, "headers": {}}
+      {
+        "url": "https://httpbin.org/get",
+        "method": "GET",
+        "body": null,
+        "headers": {}
+      },
+      {
+        "url": "https://httpbin.org/post",
+        "method": "POST",
+        "body": null,
+        "headers": {}
+      }
     ]
   }
 }
